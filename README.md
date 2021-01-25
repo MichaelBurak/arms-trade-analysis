@@ -1,4 +1,4 @@
-# Lords of War: A Global Arms Trade Analysis
+# _Lords of War: A Global Arms Trade Analysis_
 
 ![A dense, highly interconnected graph visualization showing thousands of relations between 250 odd entities representing state and non-state actors supplying with arms](./images/initialneo4jload.png)
 
