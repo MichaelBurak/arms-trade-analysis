@@ -26,7 +26,7 @@
 
 ![Chart depicting top 10 suppliers in the arms trade dataset, first being the US](./images/top_10_suppliers.png)
 
-# Conclusion
+# Project Status
 
 This project is still in process, keep tuned for more! So far I have gained a greater appreciation for my data cleaning skills, a willingness to tackle the most arcane of datasets, and a deep interest rekindled in this sort of socio-political data.
 
