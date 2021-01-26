@@ -7,12 +7,12 @@
 - This project uses data from [SIPRI's Arms Trade Database](https://www.sipri.org/databases/armstransfers) and is a work in progress currently focusing on network analysis using Neo4j and Python of the highly interconnected relationships and flow of goods between actors in the arms trade.
   - Utilizing data broken down by Supplier and Recipient that I have cleaned extensively for examination and visualization.
   - Used Python's pandas library for large amounts of data cleaning, seaborn library for data visualization during analysis, and Neo4j for graph database storage of highly interrelated trade data.
-- Current goal is Exploratory Data Analysis and generally uncovering information about the data. Next steps include clustering, outlier detection, NLP on the text columns, and more.
+- Current goal is Exploratory Data Analysis and generally uncovering information about the data. Next steps include clustering, outlier detection, further NLP on the text columns, and more.
 
 # Contents
 
 - [The Data Set](#the-data-set)
-- [Conclusion](#conclusion)
+- [Project Status](#project-status)
 - [Follow Me On](#follow-me-on)
 
 # The Data Set
