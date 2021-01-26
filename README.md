@@ -33,4 +33,6 @@ This project is still in process, keep tuned for more! So far I have gained a gr
 
 # Follow Me On
 
-[LinkedIn](https://www.linkedin.com/in/michael-burak/)
+[LinkedIn](https://www.linkedin.com/in/michael-burak/) for **pretty pictures**
+
+![More minimal representation of the top graph of Actors and trades](./images/nxdrawtrades.png)
