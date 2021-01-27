@@ -34,13 +34,17 @@
 - A final dataframe with the _target of a boolean value of 1/0 or United States/other Supplier in the Supplier column_ was created for analysis.
 - Data on Suppliers, Recipients and who had supplied who was transferred via. _Py2Neo library_ to the graph database _Neo4j_ in a local installation for further and future analysis.
 - A brief NLP exploration of the Comments column indicating notes on the trades was embarked upon using _t-SNE and UMAP_ visualization along with a wordcloud.
-- _Another library for Neo4j, nxneo4j,_ was used to visualize and analyze the stored graph data from the Jupyter Notebook development took place in, _utilizing algorithms of centrality such as PageRank to identify important nodes and communities of interacting nodes._
-- Several columns, including Comments, were dropped and numeric columns created by _iteratively increasing how many values of each categorical variable would be one hot encoded_ for best performance, including _over 500 dummy variables in high cardinality columns._
-- Modeling utilizing _SMOTE_ for the imbalanced classification task's target to be resampled, _Principal Component Analysis for dimensionality reduction_ in high-dimensional space, scaling and then _Multinomial Naive Bayes as a fast, effective binary classifier_ was employed, reaching a **weighted F1 score of .775**.
+- _Another library for Neo4j, nxneo4j,_ was used to visualize and analyze the stored graph data from the Jupyter Notebook development took place in, _utilizing algorithms of centrality such as PageRank to identify important nodes and communities of interacting nodes_, experimented with as important features(currently not being used for scaling concerns.)
+- Several columns, including Comments, were dropped and numeric columns created by earlier experimenting with _iteratively increasing how many values of each categorical variable would be one hot encoded_ for best performance, including _1000 dummy variables in high cardinality columns._, experimented with as feat
+- Modeling utilizing _SMOTE_ for the imbalanced classification task's target to be resampled, at one point _Principal Component Analysis for dimensionality reduction_ in high-dimensional space, scaling, primarily the model used was _Complement Naive Bayes as a fast, effective binary classifier_ which was employed with _cross validation_ and _grid searching_, reaching a **weighted F1 score of .91**.
+- _SHAP_ was used to examine the final model for interpretability, showing the importance of numeric columns engineered from text representing comments including "second-hand", "aid" and "combat" or "aircraft" as important.
+
+![A plot showing the direction and amount of importance of model features, prominently around the above text features](./images/shap.png)
 
 # Project Status
 
 - This project is still in process, keep tuned for more and pardon the mess! So far I have gained a greater appreciation for my data cleaning skills, a willingness to tackle the most arcane of datasets, and a deep interest rekindled in this sort of socio-political data.
+- Currently working on using catboost given the predominance of categorical values in the dataset.
 
 # Future Work
 
